@@ -1,0 +1,22 @@
+---
+title: "eds212-leslie-matrix"
+format: html
+editor: visual
+---
+
+## Leslie Matrix
+
+```{r}
+fish_leslie <- matrix(data = c(0, 0, 0, 600, 0.25, 0, 0, 0, 0, 0.1, 0, 0, 0, 0, 0.4, 0.8),
+                      nrow = 4,
+                      ncol = 4,
+                      byrow = TRUE)
+```
+
+```{r}
+fish_leslie
+```
+
+```{r}
+yr0_cond <- c(0, 40000, 600, 450)
+```
