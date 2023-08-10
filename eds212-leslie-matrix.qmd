@@ -20,3 +20,28 @@ fish_leslie
 ```{r}
 yr0_cond <- c(0, 40000, 600, 450)
 ```
+
+```{r}
+fish_yr1 <- fish_leslie %*% yr0_cond
+fish_yr1
+```
+
+```{r}
+fish_yr2 <- fish_leslie %*% fish_yr1
+fish_yr2
+```
+
+```{r}
+fish_yr3 <- fish_leslie %*% fish_yr2
+fish_yr3
+```
+
+```{r}
+fish_yr4 <- fish_leslie %*% fish_yr3
+fish_yr4
+```
+
+```{r}
+fish_yr5 <- fish_leslie %*% fish_yr4
+fish_yr5
+```
